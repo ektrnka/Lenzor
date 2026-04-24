@@ -1,0 +1,3 @@
+// Fill these two values on Mac before first iPhone build.
+APP_BUNDLE_IDENTIFIER=com.linzor.app
+APP_DEVELOPMENT_TEAM=YOUR_TEAM_ID

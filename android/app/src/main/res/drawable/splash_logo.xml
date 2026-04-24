@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <!-- Teardrop: rounded top, point at bottom -->
+    <path
+        android:pathData="M50,5 Q92,35 85,65 Q78,88 50,98 Q22,88 15,65 Q8,35 50,5"
+        android:strokeWidth="5"
+        android:strokeColor="#FFFFFFFF"
+        android:fillColor="#00000000"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"/>
+    <!-- Inner highlight -->
+    <path
+        android:pathData="M35,52 Q50,38 65,52"
+        android:strokeWidth="3"
+        android:strokeColor="#FFFFFFFF"
+        android:fillColor="#00000000"
+        android:strokeLineCap="round"/>
+</vector>

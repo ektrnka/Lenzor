@@ -1,0 +1,504 @@
+{
+  "@@locale": "en",
+  "appTitle": "Linsor",
+  "appName": "Linsor",
+  "navHome": "Home",
+  "navHistory": "History",
+  "navProfile": "Profile",
+  "navSettings": "Settings",
+  "settingsTitle": "Settings",
+  "settingsSubtitle": "App personalization",
+  "language": "Language",
+  "theme": "Theme",
+  "themeSystem": "System",
+  "themeLight": "Light",
+  "themeDark": "Dark",
+  "languageSystem": "System default",
+  "languageRussian": "Russian",
+  "languageEnglish": "English",
+  "save": "Save",
+  "cancel": "Cancel",
+  "refreshStatus": "Refresh status",
+  "notifications": "Notifications",
+  "notificationsReplacementReminders": "Replacement reminders",
+  "notificationsStatus": "Notification status",
+  "notificationsDisabled": "Notifications disabled",
+  "notificationsEnabled": "Notifications enabled",
+  "notificationsOff": "Notifications are off",
+  "allowBackgroundWork": "Allow background work",
+  "allowBackgroundWorkSubtitle": "Needed for reminders when the app is closed",
+  "loadingDots": "...",
+  "error": "Error",
+  "ok": "OK",
+  "yes": "Yes",
+  "no": "No",
+  "delete": "Delete",
+  "retry": "Try again",
+  "lensTypeDaily": "Daily",
+  "lensTypeWeekly": "Weekly",
+  "lensTypeBiweekly": "Bi-weekly",
+  "lensTypeMonthly": "Monthly",
+  "lensTypeQuarterly": "Quarterly",
+  "lensTypeHalfYearly": "Semi-annual",
+  "symptomDiscomfort": "Discomfort",
+  "symptomDryEyes": "Dry eyes",
+  "symptomRedness": "Redness",
+  "symptomTearing": "Tearing",
+  "symptomBlurryVision": "Blurred vision",
+  "symptomPain": "Pain",
+  "symptomLightSensitivity": "Light sensitivity",
+  "symptomEyeFatigue": "Eye fatigue",
+  "wordDayOne": "day",
+  "wordDayFew": "days",
+  "wordDayMany": "days",
+  "wordHourOne": "hour",
+  "wordHourFew": "hours",
+  "wordHourMany": "hours",
+  "wordPairOne": "pair",
+  "wordPairFew": "pairs",
+  "wordPairMany": "pairs",
+  "homeTitle": "Linsor",
+  "homeSubtitle": "Contact lens tracking",
+  "homeWearing": "Wearing",
+  "homeStock": "Stock",
+  "homeUpdateStock": "Update stock",
+  "homeHowManyPairsToAdd": "How many pairs to add",
+  "homeCurrentStock": "Current stock: {count} pairs",
+  "@homeCurrentStock": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "homeEnterPositiveNumber": "Enter a positive number",
+  "homeNoActiveLenses": "You have no active lenses",
+  "homeCompleteWearing": "Complete wearing",
+  "homeCompleteWearingQuestion": "Complete wearing?",
+  "homeCompleteWearingConfirm": "Are you sure you want to complete the current lens cycle?",
+  "homeWearingCompleted": "Wearing cycle completed",
+  "homeTipsTitle": "Care tips",
+  "homeNoCyclePlaceholder": "The current cycle will appear here once you start using lenses",
+  "homePutOnNewPair": "Put on a new pair",
+  "homeOverdueBy": "Lenses are overdue by",
+  "homeUntilReplacement": "Until replacement",
+  "mainAddRecord": "Add record",
+  "mainRecordForDate": "Record for {date}",
+  "@mainRecordForDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "mainAddRecordForDate": "Add record for {date}",
+  "@mainAddRecordForDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "mainCannotAddFutureRecords": "You can't add records for future dates",
+  "mainReplaceLenses": "Replace lenses",
+  "mainReplaceLensesDescription": "Start a new pair cycle",
+  "mainUpdateStockDescription": "Change pairs in stock",
+  "mainAddSymptoms": "Add symptoms",
+  "mainAddSymptomsDescription": "Mark discomfort or issues",
+  "mainTakeOffLenses": "Take off lenses",
+  "mainTakeOffLensesDescription": "Complete current wearing cycle",
+  "mainNotEnoughLenses": "Not enough lenses",
+  "mainNoLensesAndTakeOffPrompt": "You're out of lenses and cannot start a new pair. Take off current lenses instead?",
+  "mainNoLensesAddStockPrompt": "You're out of lenses. Add stock in the Profile section.",
+  "mainLensReplacement": "Lens replacement",
+  "mainStartNewPairQuestion": "Start a new lens pair cycle? The current cycle will be completed automatically.",
+  "mainPutOnNewPairQuestion": "Put on a new lens pair?",
+  "mainReplace": "Replace",
+  "mainLowStockWarning": "Low stock warning: {count} pairs left",
+  "@mainLowStockWarning": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "mainErrorReplacingLenses": "Error while replacing lenses",
+  "mainTimeMessageHoursBefore": "Take lenses off in {hours} h",
+  "@mainTimeMessageHoursBefore": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "mainTimeMessageExpiry": "Time to take off lenses! (14 hours passed)",
+  "mainTomorrow": "Tomorrow",
+  "mainInDays": "In {days} days",
+  "@mainInDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "mainTimeToReplaceMessage": "{when} it's time to replace lenses",
+  "@mainTimeToReplaceMessage": {
+    "placeholders": {
+      "when": {
+        "type": "String"
+      }
+    }
+  },
+  "mainTakeOffConfirm": "Are you sure you want to complete the current wearing cycle? This will create a lens removal entry.",
+  "historyTitle": "Usage history",
+  "historySubtitle": "Lens wearing cycles",
+  "historyAllTime": "All time",
+  "historyLegendActive": "Active",
+  "historyLegendCompleted": "Completed",
+  "historyLegendSoon": "Replace soon",
+  "historyLegendOverdue": "Overdue",
+  "historyEmptyTitle": "History is empty",
+  "historyEmptyDescription": "Start wearing lenses and your cycle history will appear here",
+  "historyCompletedByRemoval": "Completed by manual removal",
+  "historyCompletedByReplacement": "Completed by replacement",
+  "historyPassedOfHours": "Passed: {used} of {total} hours",
+  "@historyPassedOfHours": {
+    "placeholders": {
+      "used": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "historyUsedOfHours": "Used: {used} of {total} hours",
+  "@historyUsedOfHours": {
+    "placeholders": {
+      "used": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "historyRecommendedHours": "Recommended: {from}-{to} hours",
+  "@historyRecommendedHours": {
+    "placeholders": {
+      "from": {
+        "type": "int"
+      },
+      "to": {
+        "type": "int"
+      }
+    }
+  },
+  "historyPassedOfDays": "Passed: {used} of {total} days",
+  "@historyPassedOfDays": {
+    "placeholders": {
+      "used": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "historyUsedOfDays": "Used: {used} of {total} days",
+  "@historyUsedOfDays": {
+    "placeholders": {
+      "used": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "calendarTitle": "Calendar",
+  "calendarAllYears": "All years",
+  "calendarLegendWearDays": "Wearing days",
+  "calendarLegendOverwear": "Overwear",
+  "calendarLegendReplacement": "Replacement",
+  "calendarLegendSymptoms": "Symptoms",
+  "calendarLegendVisionCheck": "Vision check",
+  "calendarLegendStock": "Stock",
+  "calendarLoadError": "Failed to load calendar",
+  "calendarDetailsInfo": "Information",
+  "calendarNoRecordsDay": "No records for this day",
+  "calendarOverwearDay": "Overwear: wearing period was exceeded on this day",
+  "calendarWearingNoDetails": "Wearing day with no extra records",
+  "calendarNewPair": "New pair of lenses",
+  "calendarManualRemoval": "Lenses removed manually",
+  "calendarNote": "Note",
+  "calendarNoAdditionalDetails": "No additional details",
+  "calendarLeftEye": "Left eye",
+  "calendarRightEye": "Right eye",
+  "calendarStockLabel": "Stock",
+  "calendarReplacementTitle": "Lens replacement",
+  "calendarSymptomsTitle": "Symptoms",
+  "calendarVisionTitle": "Vision check",
+  "calendarStockUpdateTitle": "Stock update",
+  "onboardingSubtitle": "Contact lens monitoring",
+  "onboardingSignInPrompt": "Sign in to sync data across devices",
+  "onboardingSignInGoogle": "Sign in with Google",
+  "onboardingContinueWithoutAccount": "Continue without account",
+  "onboardingSignInFailed": "Sign-in failed: {reason}",
+  "@onboardingSignInFailed": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "onboardingDataConflictTitle": "You have data both on device and in account",
+  "onboardingDataConflictMessage": "Choose which data to keep: device data can be uploaded, or cloud data can replace local data.",
+  "onboardingUseCloudData": "Load from account",
+  "onboardingKeepDeviceData": "Keep device data",
+  "profileTitle": "Profile",
+  "profileSubtitle": "Your info and history",
+  "profileAccount": "Account",
+  "profileUser": "User",
+  "profileSignOut": "Sign out",
+  "profileSignInHint": "Sign in to sync data across devices",
+  "profileSignInGoogle": "Sign in with Google",
+  "profileSyncError": "Sync error: {reason}",
+  "@profileSyncError": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "profileStatisticsTotalCycles": "Total cycles",
+  "profileStatisticsAverageDays": "Average, days",
+  "profileLensInfoTitle": "Lens information",
+  "profileVisionCheckTitle": "Vision check",
+  "profileDeleteHistoryTitle": "Clear history",
+  "profileDeleteHistoryConfirm": "Are you sure you want to clear history?",
+  "notificationAllowTitle": "Allow notifications?",
+  "notificationAllowSubtitle": "Linsor uses notifications for:",
+  "notificationFeatureReplacement": "Replacement reminders",
+  "notificationFeatureEyeHealth": "Eye health tips",
+  "notificationFeaturePeriodControl": "Wearing period control",
+  "notificationFeatureWarnings": "Important warnings",
+  "notificationAllowLater": "Not now",
+  "notificationAllow": "Allow",
+  "notificationBlockedTitle": "Notifications are blocked",
+  "notificationBlockedMessage": "Open device settings and allow notifications for Linsor.",
+  "notificationOpenSettings": "Open settings",
+  "notificationPermissionError": "Permission request error",
+  "notificationPermissionGranted": "Notifications enabled. You will receive reminders.",
+  "notificationPermissionDenied": "Notifications are disabled. You can enable them later in Settings.",
+  "notificationPermissionDisableAnytime": "You can disable notifications anytime in Settings.",
+  "notificationBlockedMessageDetailed": "You previously denied notification permission.\n\nTo enable it:\n1. Open device settings\n2. Find Linsor\n3. Allow notifications\n4. Return to the app",
+  "notificationChannelName": "Lens reminders",
+  "notificationChannelDescription": "Lens replacement and eye health notifications",
+  "notificationTitleReplace": "Time to replace lenses!",
+  "notificationBodyReplaceToday": "Today is the recommended replacement date.",
+  "notificationActionDone": "I replaced them",
+  "notificationActionSnooze": "Remind me later",
+  "notificationDailyTipTitle": "Care tip",
+  "notificationSolutionTitle": "Solution purchase",
+  "notificationSolutionBody": "Time to buy contact lens solution",
+  "notificationLowStockTitle": "Low stock reminder",
+  "appNavMarkDoneQuestion": "Did you replace \"{lensName}\"?",
+  "@appNavMarkDoneQuestion": {
+    "placeholders": {
+      "lensName": {
+        "type": "String"
+      }
+    }
+  },
+  "appNavAfterConfirm": "After confirmation:",
+  "appNavMarkDoneFeature1": "Lenses will be marked as replaced",
+  "appNavMarkDoneFeature2": "A new wearing cycle will start",
+  "appNavMarkDoneFeature3": "Stock will decrease by 1 pair",
+  "appNavMarkDoneFeature4": "Old reminders will be removed",
+  "appNavMarkDoneFeature5": "New reminders will be scheduled",
+  "appNavMarkDoneConfirmButton": "Yes, replaced",
+  "appNavRestock": "Restock",
+  "appNavSnoozeChooseTime": "Choose when to remind about lenses:",
+  "appNavSnoozeIn1Hour": "In 1 hour",
+  "appNavSnoozeIn3Hours": "In 3 hours",
+  "appNavSnoozeTomorrowMorning": "Tomorrow morning",
+  "appNavSnoozeIn2Days": "In 2 days",
+  "appNavReminderDelayedMessage": "Reminder delayed. Time to replace lenses.",
+  "appNavReminderSnoozedFor": "Reminder delayed for {duration}",
+  "@appNavReminderSnoozedFor": {
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "appNavEyeHealthTitle": "Eye health",
+  "appNavEyeHealthSubtitle": "Contact lens recommendations:",
+  "appNavEyeHealthTip1": "Wash your hands before handling lenses",
+  "appNavEyeHealthTip2": "Follow the replacement schedule",
+  "appNavEyeHealthTip3": "Do not sleep in lenses unless approved for overnight wear",
+  "appNavEyeHealthTip4": "Use fresh solution every day",
+  "appNavEyeHealthTip5": "Visit your eye doctor regularly",
+  "appNavEyeHealthTip6": "Avoid water (pool, shower) while wearing lenses",
+  "appNavEyeHealthWarning": "If discomfort, redness, or blurry vision appears, remove lenses and consult a doctor.",
+  "appNavClose": "Close",
+  "appNavMyLenses": "My lenses",
+  "appNavOpenProfileSetupHint": "Open profile editing to set up lenses",
+  "appNavMinutesShort": "min",
+  "profileSignOutDataTitle": "What to do with your data?",
+  "profileSignOutDataMessage": "Data will stay in the cloud and be available after sign-in.\n\n• Keep on device — continue working offline\n• Delete from device — free space, cloud data remains available",
+  "profileDeleteFromDevice": "Delete from device",
+  "profileKeepOnDevice": "Keep on device",
+  "profileLensType": "Lens type",
+  "profileWearingPeriod": "Wearing period",
+  "profileBaseCurve": "Base curve",
+  "profileDiameter": "Diameter",
+  "profileFirstUseDate": "First use date",
+  "profileBrand": "Brand",
+  "profileChangeLensType": "Change lens type",
+  "profileVision": "Vision",
+  "profileNoVisionData": "No vision data",
+  "profileAddCheck": "Add check",
+  "profileNoVisionRecords": "No vision check records",
+  "profileAddFirstCheckHint": "Add the first check to track changes",
+  "profileDeleteVisionCheckMessage": "Vision check from {date} will be deleted permanently.",
+  "@profileDeleteVisionCheckMessage": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "profileLensSetup": "Lens setup",
+  "profileContactLensType": "Contact lens type",
+  "profileLensBrand": "Lens brand",
+  "profileLensBrandHint": "Example: Acuvue Oasys",
+  "profileBaseCurveWithCode": "Base curve (BC)",
+  "profileDiameterWithCode": "Diameter (DIA)",
+  "profileLeftMm": "Left, mm",
+  "profileRightMm": "Right, mm",
+  "profileLensTypeChangeWarning": "Changing lens type affects current cycle. The new type will apply to current and next cycles.",
+  "profileCheckDate": "Check date",
+  "profileOpticalPowerSph": "Optical power (SPH)",
+  "profileCylinderCyl": "Cylinder (CYL) - for astigmatism",
+  "profileAxis": "Axis (AXIS) - for astigmatism",
+  "profileAstigmatismHint": "Leave CYL and AXIS empty if you do not have astigmatism.",
+  "profileFillSphError": "Please fill in optical power (SPH)",
+  "profileLeftAxisError": "For left eye CYL, specify AXIS from 0 to 180°",
+  "profileRightAxisError": "For right eye CYL, specify AXIS from 0 to 180°"
+  ,
+  "settingsDailyAt": "Daily at {time}",
+  "@settingsDailyAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsTipTime": "Tip time",
+  "settingsNotificationTime": "Notification time",
+  "settingsEveryMonths": "every {months} month(s)",
+  "@settingsEveryMonths": {
+    "placeholders": {
+      "months": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsDailyAtLowStock": "Daily at {time} when stock is below threshold",
+  "@settingsDailyAtLowStock": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsLowStockReminderHelp": "A daily notification will be sent at the selected time if lens stock is below the warning threshold.",
+  "settingsLensStock": "Lens stock",
+  "settingsAlertThreshold": "Alert threshold",
+  "settingsData": "Data",
+  "settingsDataManagement": "Data management",
+  "settingsDeleteAllHistory": "Delete all history",
+  "settingsHoursBeforeEndTitle": "How many hours before end",
+  "settingsAtExpiry": "At expiry",
+  "settingsDaysBeforeReplacement": "How many days before replacement",
+  "settingsReplacementDayTime": "Time on replacement day",
+  "settingsHoursBeforeEndHelp": "Notify N hours before the end of 14-hour wear period:",
+  "settingsDaysBeforeReplacementHelp": "Remind N days before replacement date:",
+  "settingsBatteryNoRestrictionsHint": "Choose \"No restrictions\" for the app in battery settings",
+  "settingsReplacementNotificationTimeHelp": "Choose time for replacement notifications",
+  "settingsWarnWhenStockDrops": "Warn when lens stock drops to:",
+  "settingsStockBelowThreshold": "Lens stock ({count} {unit}) is below threshold!",
+  "@settingsStockBelowThreshold": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsClearHistoryWarning": "Are you sure? This action will delete:\n\n• All lens replacement history\n• All symptom records\n• Vision checks\n• Stock history\n\nAccount, lens type, and settings will be kept.\nThis action is IRREVERSIBLE!",
+  "settingsSolutionPurchaseReminder": "Solution purchase reminder",
+  "settingsWeekday": "Weekday",
+  "settingsTime": "Time",
+  "settingsPeriod": "Period",
+  "historyToday": "today",
+  "notificationTestAllowForTest": "Please allow notifications for test",
+  "notificationTestScheduledBody": "Scheduled test: notifications are working.",
+  "notificationTestTitleInSeconds": "Test in {seconds} sec",
+  "@notificationTestTitleInSeconds": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "notificationTestInSeconds": "Notification in {seconds} sec",
+  "@notificationTestInSeconds": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "notificationTestInMinutes": "Notification in {minutes} min",
+  "@notificationTestInMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "notificationTestScheduledSuccess": "Scheduled: {message}. You can close the app.",
+  "@notificationTestScheduledSuccess": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationTestPermissionNotGranted": "Notification permission is not granted",
+  "notificationTestDebugBody": "zonedSchedule is working.",
+  "notificationTestDebugScheduledSuccess": "In {seconds} sec (zonedSchedule). You can close the app.",
+  "@notificationTestDebugScheduledSuccess": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "notificationTestManualTitle": "Linsor - Test notification",
+  "notificationTestManualBody": "Notifications are working. Reminders will be delivered on time.",
+  "notificationTestSent": "Test notification sent",
+  "notificationTestSendError": "Notification send error: {error}",
+  "@notificationTestSendError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  }
+}

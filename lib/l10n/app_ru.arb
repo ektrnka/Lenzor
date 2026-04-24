@@ -1,0 +1,503 @@
+{
+    "@@locale":  "ru",
+    "appTitle": "Линзор",
+    "appName":  "Linsor",
+    "navHome":  "Главная",
+    "navHistory":  "История",
+    "navProfile":  "Профиль",
+    "navSettings":  "Настройки",
+    "settingsTitle":  "Настройки",
+    "settingsSubtitle":  "Персонализация приложения",
+    "language":  "Язык",
+    "theme": "Тема",
+    "themeSystem": "Системная",
+    "themeLight": "Светлая",
+    "themeDark": "Тёмная",
+    "languageSystem":  "Системный",
+    "languageRussian":  "Русский",
+    "languageEnglish":  "Английский",
+    "save":  "Сохранить",
+    "cancel":  "Отмена",
+    "refreshStatus":  "Обновить статус",
+    "notifications":  "Уведомления",
+    "notificationsReplacementReminders":  "Напоминания о замене",
+    "notificationsStatus":  "Статус уведомлений",
+    "notificationsDisabled":  "Уведомления отключены",
+    "notificationsEnabled":  "Уведомления включены",
+    "notificationsOff":  "Уведомления отключены",
+    "allowBackgroundWork":  "Разрешить фоновую работу",
+    "allowBackgroundWorkSubtitle":  "Нужно для напоминаний, когда приложение закрыто",
+    "loadingDots":  "...",
+    "error":  "Ошибка",
+    "ok":  "ОК",
+    "yes":  "Да",
+    "no":  "Нет",
+    "delete":  "Удалить",
+    "retry":  "Повторить",
+    "lensTypeDaily":  "Однодневные",
+    "lensTypeWeekly":  "Недельные",
+    "lensTypeBiweekly":  "Двухнедельные",
+    "lensTypeMonthly":  "Месячные",
+    "lensTypeQuarterly":  "Квартальные",
+    "lensTypeHalfYearly":  "Полугодовые",
+    "symptomDiscomfort":  "Дискомфорт",
+    "symptomDryEyes":  "Сухость глаз",
+    "symptomRedness":  "Покраснение",
+    "symptomTearing":  "Слезотечение",
+    "symptomBlurryVision":  "Размытое зрение",
+    "symptomPain":  "Боль",
+    "symptomLightSensitivity":  "Светочувствительность",
+    "symptomEyeFatigue":  "Усталость глаз",
+    "wordDayOne":  "день",
+    "wordDayFew":  "дня",
+    "wordDayMany":  "дней",
+    "wordHourOne":  "час",
+    "wordHourFew":  "часа",
+    "wordHourMany":  "часов",
+    "wordPairOne":  "пара",
+    "wordPairFew":  "пары",
+    "wordPairMany":  "пар",
+    "homeTitle":  "Линзор",
+    "homeSubtitle":  "Мониторинг контактных линз",
+    "homeWearing":  "Ношение",
+    "homeStock":  "Запас",
+    "homeUpdateStock":  "Обновить запас",
+    "homeHowManyPairsToAdd":  "Сколько пар добавить",
+    "homeCurrentStock":  "Текущий запас: {count} пар",
+    "@homeCurrentStock":  {
+                              "placeholders":  {
+                                                   "count":  {
+                                                                 "type":  "int"
+                                                             }
+                                               }
+                          },
+    "homeEnterPositiveNumber":  "Введите положительное число",
+    "homeNoActiveLenses":  "У вас нет активных линз",
+    "homeCompleteWearing":  "Завершить ношение",
+    "homeCompleteWearingQuestion":  "Завершить ношение?",
+    "homeCompleteWearingConfirm":  "Вы уверены, что хотите завершить текущий цикл ношения линз?",
+    "homeWearingCompleted":  "Цикл ношения завершён",
+    "homeTipsTitle":  "Советы по уходу",
+    "homeNoCyclePlaceholder":  "Текущий цикл появится здесь после начала ношения линз",
+    "homePutOnNewPair":  "Надеть новую пару",
+    "homeOverdueBy":  "Линзы просрочены на",
+    "homeUntilReplacement":  "До замены линз",
+    "mainAddRecord":  "Добавить запись",
+    "mainRecordForDate":  "Запись за {date}",
+    "@mainRecordForDate":  {
+                               "placeholders":  {
+                                                    "date":  {
+                                                                 "type":  "String"
+                                                             }
+                                                }
+                           },
+    "mainAddRecordForDate":  "Добавить запись за {date}",
+    "@mainAddRecordForDate":  {
+                                  "placeholders":  {
+                                                       "date":  {
+                                                                    "type":  "String"
+                                                                }
+                                                   }
+                              },
+    "mainCannotAddFutureRecords":  "Нельзя добавлять записи на будущие даты",
+    "mainReplaceLenses":  "Заменить линзы",
+    "mainReplaceLensesDescription":  "Начать новый цикл пары",
+    "mainUpdateStockDescription":  "Изменить количество пар в запасе",
+    "mainAddSymptoms":  "Добавить симптомы",
+    "mainAddSymptomsDescription":  "Отметить дискомфорт или проблемы",
+    "mainTakeOffLenses":  "Снять линзы",
+    "mainTakeOffLensesDescription":  "Завершить текущий цикл ношения",
+    "mainNotEnoughLenses":  "Недостаточно линз",
+    "mainNoLensesAndTakeOffPrompt":  "Линзы закончились, начать новую пару нельзя.\n\nСнять текущие линзы?",
+    "mainNoLensesAddStockPrompt":  "Линзы закончились. Пополните запас в разделе «Профиль».",
+    "mainLensReplacement":  "Замена линз",
+    "mainStartNewPairQuestion":  "Начать новый цикл пары линз?\n\nТекущий цикл будет завершён автоматически.",
+    "mainPutOnNewPairQuestion":  "Надеть новую пару линз?",
+    "mainReplace":  "Заменить",
+    "mainLowStockWarning":  "Низкий запас: осталось {count} пар",
+    "@mainLowStockWarning":  {
+                                 "placeholders":  {
+                                                      "count":  {
+                                                                    "type":  "int"
+                                                                }
+                                                  }
+                             },
+    "mainErrorReplacingLenses":  "Ошибка при замене линз",
+    "mainTimeMessageHoursBefore":  "Снимите линзы через {hours} ч",
+    "@mainTimeMessageHoursBefore":  {
+                                        "placeholders":  {
+                                                             "hours":  {
+                                                                           "type":  "int"
+                                                                       }
+                                                         }
+                                    },
+    "mainTimeMessageExpiry":  "Пора снять линзы! (прошло 14 часов)",
+    "mainTomorrow":  "Завтра",
+    "mainInDays":  "Через {days} дней",
+    "@mainInDays":  {
+                        "placeholders":  {
+                                             "days":  {
+                                                          "type":  "int"
+                                                      }
+                                         }
+                    },
+    "mainTimeToReplaceMessage":  "{when} пора заменить линзы",
+    "@mainTimeToReplaceMessage":  {
+                                      "placeholders":  {
+                                                           "when":  {
+                                                                        "type":  "String"
+                                                                    }
+                                                       }
+                                  },
+    "mainTakeOffConfirm":  "Вы уверены, что хотите завершить текущий цикл ношения? Будет создана запись о снятии линз.",
+    "historyTitle":  "История ношения",
+    "historySubtitle":  "Циклы ношения линз",
+    "historyAllTime":  "За всё время",
+    "historyLegendActive":  "Активно",
+    "historyLegendCompleted":  "Завершено",
+    "historyLegendSoon":  "Скоро замена",
+    "historyLegendOverdue":  "Просрочено",
+    "historyEmptyTitle":  "История пуста",
+    "historyEmptyDescription":  "Начните носить линзы, и здесь появится история циклов",
+    "historyCompletedByRemoval":  "Завершено ручным снятием",
+    "historyCompletedByReplacement":  "Завершено заменой",
+    "historyPassedOfHours":  "Прошло: {used} из {total} часов",
+    "@historyPassedOfHours":  {
+                                  "placeholders":  {
+                                                       "used":  {
+                                                                    "type":  "int"
+                                                                },
+                                                       "total":  {
+                                                                     "type":  "int"
+                                                                 }
+                                                   }
+                              },
+    "historyUsedOfHours":  "Использовано: {used} из {total} часов",
+    "@historyUsedOfHours":  {
+                                "placeholders":  {
+                                                     "used":  {
+                                                                  "type":  "int"
+                                                              },
+                                                     "total":  {
+                                                                   "type":  "int"
+                                                               }
+                                                 }
+                            },
+    "historyRecommendedHours":  "Рекомендовано: {from}-{to} часов",
+    "@historyRecommendedHours":  {
+                                     "placeholders":  {
+                                                          "from":  {
+                                                                       "type":  "int"
+                                                                   },
+                                                          "to":  {
+                                                                     "type":  "int"
+                                                                 }
+                                                      }
+                                 },
+    "historyPassedOfDays":  "Прошло: {used} из {total} дней",
+    "@historyPassedOfDays":  {
+                                 "placeholders":  {
+                                                      "used":  {
+                                                                   "type":  "int"
+                                                               },
+                                                      "total":  {
+                                                                    "type":  "int"
+                                                                }
+                                                  }
+                             },
+    "historyUsedOfDays":  "Использовано: {used} из {total} дней",
+    "@historyUsedOfDays":  {
+                               "placeholders":  {
+                                                    "used":  {
+                                                                 "type":  "int"
+                                                             },
+                                                    "total":  {
+                                                                  "type":  "int"
+                                                              }
+                                                }
+                           },
+    "calendarTitle":  "Календарь",
+    "calendarAllYears":  "Все годы",
+    "calendarLegendWearDays":  "Дни ношения",
+    "calendarLegendOverwear":  "Перенашивание",
+    "calendarLegendReplacement":  "Замена",
+    "calendarLegendSymptoms":  "Симптомы",
+    "calendarLegendVisionCheck":  "Проверка зрения",
+    "calendarLegendStock":  "Запас",
+    "calendarLoadError":  "Не удалось загрузить календарь",
+    "calendarDetailsInfo":  "Информация",
+    "calendarNoRecordsDay":  "На этот день нет записей",
+    "calendarOverwearDay":  "Перенашивание: в этот день срок ношения был превышен",
+    "calendarWearingNoDetails":  "День ношения без дополнительных записей",
+    "calendarNewPair":  "Новая пара линз",
+    "calendarManualRemoval":  "Линзы сняты вручную",
+    "calendarNote":  "Заметка",
+    "calendarNoAdditionalDetails":  "Нет дополнительных деталей",
+    "calendarLeftEye":  "Левый глаз",
+    "calendarRightEye":  "Правый глаз",
+    "calendarStockLabel":  "Запас",
+    "calendarReplacementTitle":  "Замена линз",
+    "calendarSymptomsTitle":  "Симптомы",
+    "calendarVisionTitle":  "Проверка зрения",
+    "calendarStockUpdateTitle":  "Обновление запаса",
+    "onboardingSubtitle":  "Мониторинг контактных линз",
+    "onboardingSignInPrompt":  "Войдите, чтобы синхронизировать данные между устройствами",
+    "onboardingSignInGoogle":  "Войти через Google",
+    "onboardingContinueWithoutAccount":  "Продолжить без аккаунта",
+    "onboardingSignInFailed":  "Ошибка входа: {reason}",
+    "@onboardingSignInFailed":  {
+                                    "placeholders":  {
+                                                         "reason":  {
+                                                                        "type":  "String"
+                                                                    }
+                                                     }
+                                },
+    "onboardingDataConflictTitle":  "Данные есть и на устройстве, и в аккаунте",
+    "onboardingDataConflictMessage":  "Выберите, какие данные оставить: данные устройства можно загрузить в облако, либо облачные данные заменят локальные.",
+    "onboardingUseCloudData":  "Загрузить из аккаунта",
+    "onboardingKeepDeviceData":  "Оставить данные устройства",
+    "profileTitle":  "Профиль",
+    "profileSubtitle":  "Ваши данные и история",
+    "profileAccount":  "Аккаунт",
+    "profileUser":  "Пользователь",
+    "profileSignOut":  "Выйти",
+    "profileSignInHint":  "Войдите, чтобы синхронизировать данные между устройствами",
+    "profileSignInGoogle":  "Войти через Google",
+    "profileSyncError":  "Ошибка синхронизации: {reason}",
+    "@profileSyncError":  {
+                              "placeholders":  {
+                                                   "reason":  {
+                                                                  "type":  "String"
+                                                              }
+                                               }
+                          },
+    "profileStatisticsTotalCycles":  "Всего циклов",
+    "profileStatisticsAverageDays":  "Среднее, дней",
+    "profileLensInfoTitle":  "Информация о линзах",
+    "profileVisionCheckTitle":  "Проверки зрения",
+    "profileDeleteHistoryTitle":  "Очистить историю",
+    "profileDeleteHistoryConfirm":  "Вы уверены, что хотите очистить историю?",
+    "notificationAllowTitle":  "Разрешить уведомления?",
+    "notificationAllowSubtitle":  "Linsor использует уведомления для:",
+    "notificationFeatureReplacement":  "Напоминаний о замене",
+    "notificationFeatureEyeHealth":  "Советов по здоровью глаз",
+    "notificationFeaturePeriodControl":  "Контроля срока ношения",
+    "notificationFeatureWarnings":  "Важных предупреждений",
+    "notificationAllowLater":  "Не сейчас",
+    "notificationAllow":  "Разрешить",
+    "notificationBlockedTitle":  "Уведомления заблокированы",
+    "notificationBlockedMessage":  "Откройте настройки устройства и разрешите уведомления для Linsor.",
+    "notificationOpenSettings":  "Открыть настройки",
+    "notificationPermissionError":  "Ошибка запроса разрешения",
+    "notificationPermissionGranted":  "Уведомления включены. Вы будете получать напоминания.",
+    "notificationPermissionDenied":  "Уведомления отключены. Вы можете включить их позже в Настройках.",
+    "notificationPermissionDisableAnytime":  "Вы можете отключить уведомления в любое время в Настройках.",
+    "notificationBlockedMessageDetailed":  "Вы ранее отклонили разрешение на уведомления.\n\nЧтобы включить его:\n1. Откройте настройки устройства\n2. Найдите Linsor\n3. Разрешите уведомления\n4. Вернитесь в приложение",
+    "notificationChannelName":  "Напоминания о линзах",
+    "notificationChannelDescription":  "Уведомления о замене линз и здоровье глаз",
+    "notificationTitleReplace":  "Пора заменить линзы!",
+    "notificationBodyReplaceToday":  "Сегодня рекомендованная дата замены.",
+    "notificationActionDone":  "Я заменил(а)",
+    "notificationActionSnooze":  "Напомнить позже",
+    "notificationDailyTipTitle":  "Совет по уходу",
+    "notificationSolutionTitle":  "Покупка раствора",
+    "notificationSolutionBody":  "Пора купить раствор для контактных линз",
+    "notificationLowStockTitle":  "Напоминание о низком запасе",
+    "appNavMarkDoneQuestion":  "Вы заменили «{lensName}»?",
+    "@appNavMarkDoneQuestion":  {
+                                    "placeholders":  {
+                                                         "lensName":  {
+                                                                          "type":  "String"
+                                                                      }
+                                                     }
+                                },
+    "appNavAfterConfirm":  "После подтверждения:",
+    "appNavMarkDoneFeature1":  "Линзы будут отмечены как заменённые",
+    "appNavMarkDoneFeature2":  "Начнётся новый цикл ношения",
+    "appNavMarkDoneFeature3":  "Запас уменьшится на 1 пару",
+    "appNavMarkDoneFeature4":  "Старые напоминания будут удалены",
+    "appNavMarkDoneFeature5":  "Новые напоминания будут запланированы",
+    "appNavMarkDoneConfirmButton":  "Да, заменил(а)",
+    "appNavRestock":  "Пополнить запас",
+    "appNavSnoozeChooseTime":  "Выберите, когда напомнить о линзах:",
+    "appNavSnoozeIn1Hour":  "Через 1 час",
+    "appNavSnoozeIn3Hours":  "Через 3 часа",
+    "appNavSnoozeTomorrowMorning":  "Завтра утром",
+    "appNavSnoozeIn2Days":  "Через 2 дня",
+    "appNavReminderDelayedMessage":  "Напоминание отложено. Пора заменить линзы.",
+    "appNavReminderSnoozedFor":  "Напоминание отложено на {duration}",
+    "@appNavReminderSnoozedFor":  {
+                                      "placeholders":  {
+                                                           "duration":  {
+                                                                            "type":  "String"
+                                                                        }
+                                                       }
+                                  },
+    "appNavEyeHealthTitle":  "Здоровье глаз",
+    "appNavEyeHealthSubtitle":  "Рекомендации по контактным линзам:",
+    "appNavEyeHealthTip1":  "Мойте руки перед обращением с линзами",
+    "appNavEyeHealthTip2":  "Соблюдайте график замены",
+    "appNavEyeHealthTip3":  "Не спите в линзах без разрешения врача",
+    "appNavEyeHealthTip4":  "Используйте свежий раствор каждый день",
+    "appNavEyeHealthTip5":  "Регулярно посещайте офтальмолога",
+    "appNavEyeHealthTip6":  "Избегайте воды (бассейн, душ) в линзах",
+    "appNavEyeHealthWarning":  "Если появились дискомфорт, покраснение или размытое зрение — снимите линзы и обратитесь к врачу.",
+    "appNavClose":  "Закрыть",
+    "appNavMyLenses":  "Мои линзы",
+    "appNavOpenProfileSetupHint": "Откройте профиль, чтобы настроить линзы",
+    "appNavMinutesShort": "мин",
+    "profileSignOutDataTitle": "Что сделать с данными?",
+    "profileSignOutDataMessage": "Данные останутся в облаке и будут доступны после входа.\n\n• Оставить на устройстве — продолжить офлайн\n• Удалить с устройства — освободить место, данные в облаке сохранятся",
+    "profileDeleteFromDevice": "Удалить с устройства",
+    "profileKeepOnDevice": "Оставить на устройстве",
+    "profileLensType": "Тип линз",
+    "profileWearingPeriod": "Срок ношения",
+    "profileBaseCurve": "Базовая кривизна",
+    "profileDiameter": "Диаметр",
+    "profileFirstUseDate": "Дата первого использования",
+    "profileBrand": "Бренд",
+    "profileChangeLensType": "Изменить тип линз",
+    "profileVision": "Зрение",
+    "profileNoVisionData": "Нет данных о зрении",
+    "profileAddCheck": "Добавить проверку",
+    "profileNoVisionRecords": "Нет записей проверки зрения",
+    "profileAddFirstCheckHint": "Добавьте первую проверку, чтобы отслеживать изменения",
+    "profileDeleteVisionCheckMessage": "Проверка зрения от {date} будет удалена безвозвратно.",
+    "@profileDeleteVisionCheckMessage": {
+      "placeholders": {
+        "date": {
+          "type": "String"
+        }
+      }
+    },
+    "profileLensSetup": "Настройка линз",
+    "profileContactLensType": "Тип контактных линз",
+    "profileLensBrand": "Бренд линз",
+    "profileLensBrandHint": "Например: Acuvue Oasys",
+    "profileBaseCurveWithCode": "Базовая кривизна (BC)",
+    "profileDiameterWithCode": "Диаметр (DIA)",
+    "profileLeftMm": "Левый, мм",
+    "profileRightMm": "Правый, мм",
+    "profileLensTypeChangeWarning": "Изменение типа линз влияет на текущий цикл. Новый тип будет применён к текущему и следующим циклам.",
+    "profileCheckDate": "Дата проверки",
+    "profileOpticalPowerSph": "Оптическая сила (SPH)",
+    "profileCylinderCyl": "Цилиндр (CYL) — для астигматизма",
+    "profileAxis": "Ось (AXIS) — для астигматизма",
+    "profileAstigmatismHint": "Оставьте CYL и AXIS пустыми, если у вас нет астигматизма.",
+    "profileFillSphError": "Пожалуйста, заполните оптическую силу (SPH)",
+    "profileLeftAxisError": "Для левого глаза CYL укажите AXIS от 0 до 180°",
+    "profileRightAxisError": "Для правого глаза CYL укажите AXIS от 0 до 180°",
+    "settingsDailyAt": "Ежедневно в {time}",
+    "@settingsDailyAt": {
+      "placeholders": {
+        "time": {
+          "type": "String"
+        }
+      }
+    },
+    "settingsTipTime": "Время советов",
+    "settingsNotificationTime": "Время уведомления",
+    "settingsEveryMonths": "каждые {months} мес.",
+    "@settingsEveryMonths": {
+      "placeholders": {
+        "months": {
+          "type": "int"
+        }
+      }
+    },
+    "settingsDailyAtLowStock": "Ежедневно в {time}, если запас ниже порога",
+    "@settingsDailyAtLowStock": {
+      "placeholders": {
+        "time": {
+          "type": "String"
+        }
+      }
+    },
+    "settingsLowStockReminderHelp": "Ежедневное уведомление будет отправляться в выбранное время, если запас линз ниже порогового значения.",
+    "settingsLensStock": "Запас линз",
+    "settingsAlertThreshold": "Порог предупреждения",
+    "settingsData": "Данные",
+    "settingsDataManagement": "Управление данными",
+    "settingsDeleteAllHistory": "Удалить всю историю",
+    "settingsHoursBeforeEndTitle": "За сколько часов до окончания",
+    "settingsAtExpiry": "В момент окончания",
+    "settingsDaysBeforeReplacement": "За сколько дней до замены",
+    "settingsReplacementDayTime": "Время в день замены",
+    "settingsHoursBeforeEndHelp": "Напоминать за N часов до конца 14-часового периода ношения:",
+    "settingsDaysBeforeReplacementHelp": "Напоминать за N дней до даты замены:",
+    "settingsBatteryNoRestrictionsHint": "Выберите «Без ограничений» для приложения в настройках батареи",
+    "settingsReplacementNotificationTimeHelp": "Выберите время уведомлений о замене",
+    "settingsWarnWhenStockDrops": "Предупреждать, когда запас линз упадёт до:",
+    "settingsStockBelowThreshold": "Запас линз ({count} {unit}) ниже порога!",
+    "@settingsStockBelowThreshold": {
+      "placeholders": {
+        "count": {
+          "type": "int"
+        },
+        "unit": {
+          "type": "String"
+        }
+      }
+    },
+    "settingsClearHistoryWarning": "Вы уверены? Это действие удалит:\n\n• Всю историю замен линз\n• Все записи симптомов\n• Проверки зрения\n• Историю запаса\n\nАккаунт, тип линз и настройки будут сохранены.\nЭто действие НЕОБРАТИМО!",
+    "settingsSolutionPurchaseReminder": "Напоминание о покупке раствора",
+    "settingsWeekday": "День недели",
+    "settingsTime": "Время",
+    "settingsPeriod": "Период",
+    "historyToday": "сегодня",
+    "notificationTestAllowForTest": "Пожалуйста, разрешите уведомления для теста",
+    "notificationTestScheduledBody": "Тест запланирован: уведомления работают.",
+    "notificationTestTitleInSeconds": "Тест через {seconds} сек",
+    "@notificationTestTitleInSeconds": {
+      "placeholders": {
+        "seconds": {
+          "type": "int"
+        }
+      }
+    },
+    "notificationTestInSeconds": "Уведомление через {seconds} сек",
+    "@notificationTestInSeconds": {
+      "placeholders": {
+        "seconds": {
+          "type": "int"
+        }
+      }
+    },
+    "notificationTestInMinutes": "Уведомление через {minutes} мин",
+    "@notificationTestInMinutes": {
+      "placeholders": {
+        "minutes": {
+          "type": "int"
+        }
+      }
+    },
+    "notificationTestScheduledSuccess": "Запланировано: {message}. Можно закрыть приложение.",
+    "@notificationTestScheduledSuccess": {
+      "placeholders": {
+        "message": {
+          "type": "String"
+        }
+      }
+    },
+    "notificationTestPermissionNotGranted": "Разрешение на уведомления не выдано",
+    "notificationTestDebugBody": "zonedSchedule работает.",
+    "notificationTestDebugScheduledSuccess": "Через {seconds} сек (zonedSchedule). Можно закрыть приложение.",
+    "@notificationTestDebugScheduledSuccess": {
+      "placeholders": {
+        "seconds": {
+          "type": "int"
+        }
+      }
+    },
+    "notificationTestManualTitle": "Linsor - тестовое уведомление",
+    "notificationTestManualBody": "Уведомления работают. Напоминания будут приходить вовремя.",
+    "notificationTestSent": "Тестовое уведомление отправлено",
+    "notificationTestSendError": "Ошибка отправки уведомления: {error}",
+    "@notificationTestSendError": {
+      "placeholders": {
+        "error": {
+          "type": "String"
+        }
+      }
+    }
+}

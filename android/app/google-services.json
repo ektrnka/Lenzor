@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "51430576041",
+    "project_id": "lenzor-b6a29",
+    "storage_bucket": "lenzor-b6a29.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:51430576041:android:1bf944a1d83a317d5efeb8",
+        "android_client_info": {
+          "package_name": "com.example.my_button_app_new"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "51430576041-vgmksj3hvqqvmaqg8ftgniolub48mcr2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.my_button_app_new",
+            "certificate_hash": "42434440ab35c9f3a1e33265b40cf7c319b45650"
+          }
+        },
+        {
+          "client_id": "51430576041-r2e4jnh0smkc66fg2vunc9p2mau8371d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAalY1aLWZLv3ZSlKj4VWRG7sQVVIRgFxA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "51430576041-r2e4jnh0smkc66fg2vunc9p2mau8371d.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "51430576041-77daft5u80hia4rutdnb5pb3cpobmgi5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.myButtonAppNew"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
