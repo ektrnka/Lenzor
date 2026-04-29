@@ -34,8 +34,8 @@ The application helps users monitor how long they have been wearing their lenses
 
 | Home Light | Home Dark | Calendar |
 |---|---|---|
-| (<img width="220" height="600" alt="image" src="https://github.com/user-attachments/assets/54a9c580-064c-4ac8-8001-4ae4c5888f55" />
-) |<img width="220" height="600" alt="image" src="https://github.com/user-attachments/assets/dace08f5-e892-466c-b10c-171e053d9347" />
+| <img width="220" height="600" alt="image" src="https://github.com/user-attachments/assets/54a9c580-064c-4ac8-8001-4ae4c5888f55" />
+|<img width="220" height="600" alt="image" src="https://github.com/user-attachments/assets/dace08f5-e892-466c-b10c-171e053d9347" />
  | <img width="278" height="600" alt="image" src="https://github.com/user-attachments/assets/62883a86-fbfb-4472-a510-f49ba9356e80" />
 |
 
