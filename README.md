@@ -4,6 +4,10 @@ Linsor is a cross-platform Flutter application for tracking contact lens usage, 
 
 The application helps users monitor how long they have been wearing their lenses, receive timely notifications, keep a history of lens cycles, and synchronize data across devices through Firebase.
 
+<p align="center">
+  <img src="assets/branding/icon_square.png" alt="Linsor logo" width="140">
+</p>
+
 ## Features
 
 - Contact lens wearing cycle tracking
@@ -23,6 +27,22 @@ The application helps users monitor how long they have been wearing their lenses
 - Light and dark themes
 - Russian and English localization
 - Android home widget
+
+## Screenshots
+
+> Add screenshots to `docs/screenshots/` and replace the placeholders below if needed.
+
+| Home Light | Home Dark | Calendar |
+|---|---|---|
+| ![Home Light](docs/screenshots/home-light.png) | ![Home Dark](docs/screenshots/home-dark.png) | ![Calendar](docs/screenshots/calendar.png) |
+
+| History | Profile | Settings |
+|---|---|---|
+| ![History](docs/screenshots/history.png) | ![Profile](docs/screenshots/profile.png) | ![Settings](docs/screenshots/settings.png) |
+
+| Notification | Android Widget |
+|---|---|
+| ![Notification](docs/screenshots/notification.png) | ![Android Widget](docs/screenshots/android-widget.png) |
 
 ## Platforms
 
@@ -97,7 +117,202 @@ flowchart TD
 
     DataService --> HomeWidgetService["HomeWidgetService"]
     HomeWidgetService --> AndroidWidget["Android Home Widget"]
+```
 
+## Data Model
 
+```mermaid
+erDiagram
+    LENS_INFO ||--o{ LENS_CYCLE : uses
+    LENS_INFO ||--o{ VISION_CHECK : has
+    LENS_INFO ||--o{ STOCK_UPDATE : has
+    LENS_CYCLE ||--o| LENS_REPLACEMENT : completed_by
+    LENS_CYCLE ||--o| SYMPTOM_ENTRY : may_have
 
+    LENS_INFO {
+        string brand
+        string type
+        double bcLeft
+        double bcRight
+        double diaLeft
+        double diaRight
+        datetime firstUseDate
+    }
 
+    LENS_CYCLE {
+        datetime startDate
+        datetime endDate
+        string lensType
+        int actualDaysWorn
+        bool completedManually
+        string replacementId
+        string symptomEntryId
+    }
+
+    LENS_REPLACEMENT {
+        datetime date
+        string notes
+    }
+
+    SYMPTOM_ENTRY {
+        datetime date
+        string[] symptoms
+        string notes
+    }
+
+    VISION_CHECK {
+        datetime date
+        double leftSph
+        double rightSph
+        double leftCyl
+        double rightCyl
+        int leftAxis
+        int rightAxis
+    }
+
+    STOCK_UPDATE {
+        datetime date
+        int pairsCount
+    }
+```
+
+## Synchronization Strategy
+
+The application follows a local-first approach.
+
+Data is stored locally in SharedPreferences and can be synchronized with Cloud Firestore after Google Sign-In.
+
+Current sync flow:
+
+1. Local data is pushed to Firestore.
+2. Cloud data is pulled back to the device.
+3. Local storage is updated from the cloud response.
+
+For first sign-in, if both local and cloud data exist, the user chooses which version to keep.
+
+Conflict resolution for parallel edits on multiple devices is currently simplified. The latest successful cloud write becomes the actual version. Full entity-level merge is planned as a future improvement.
+
+## Notifications
+
+The application uses local notifications for:
+
+- lens replacement reminders
+- daily lens removal reminders for daily lenses
+- care tips
+- low stock reminders
+- solution purchase reminders
+
+For daily lenses, the app tracks a 14-hour wearing period.
+
+For other lens types, the app calculates the next replacement date based on the selected lens type.
+
+Android notifications support actions:
+
+- I replaced them
+- Remind me later
+
+## Local Storage
+
+The MVP version uses SharedPreferences for local data storage.
+
+Stored data includes:
+
+- lens information
+- active lens cycle
+- completed cycles
+- symptoms
+- vision checks
+- lens stock
+- notification settings
+- language settings
+
+In future versions, the local storage can be migrated to Hive or SQLite for more advanced querying and conflict resolution.
+
+## Firebase
+
+Firebase is used for:
+
+- Google authentication
+- user identity
+- cloud data synchronization through Firestore
+
+User data is stored in:
+
+```text
+users/{uid}
+```
+
+## Project Structure
+
+```text
+lib/
+  main.dart
+  models/
+  services/
+  screens/
+  calendar/
+    data/
+    domain/
+    presentation/
+  theme/
+  l10n/
+  widgets/
+
+android/
+ios/
+web/
+windows/
+macos/
+linux/
+```
+
+## Getting Started
+
+Install dependencies:
+
+```bash
+flutter pub get
+```
+
+Run the application:
+
+```bash
+flutter run
+```
+
+Run tests:
+
+```bash
+flutter test
+```
+
+## Firebase Setup
+
+The project uses Firebase configuration from:
+
+```text
+lib/firebase_options.dart
+android/app/google-services.json
+```
+
+If Firebase is not configured, the application can still work locally without cloud synchronization.
+
+## Design
+
+The application uses two visual themes:
+
+- Light theme: Optical Vitality Framework / Translucent Clinician
+- Dark theme: Vision Flow Dark / Neon Clinician
+
+Theme implementation files:
+
+```text
+lib/theme/app_colors.dart
+lib/theme/neon_theme.dart
+lib/theme/app_theme.dart
+lib/theme/action_palette.dart
+```
+
+## Status
+
+This project is an MVP version of a contact lens monitoring application. It already includes core tracking, reminders, local storage, synchronization, localization, and Android widget functionality.
