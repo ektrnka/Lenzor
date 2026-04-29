@@ -100,14 +100,4 @@ flowchart TD
 
 
 
-Что стоит добавить в GitHub визуально:
 
-1. **Логотип приложения**  
-   Можно использовать:
-   - `assets/branding/icon_square.png`
-   - `assets/branding/icon_square_safe.png`
-
-2. **Скриншоты интерфейса**  
-   Лучше создать папку:
-   ```text
-   docs/screenshots/
