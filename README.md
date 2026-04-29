@@ -34,24 +34,15 @@ The application helps users monitor how long they have been wearing their lenses
 
 | Home Light | Home Dark | Calendar |
 |---|---|---|
-| <img width="220" height="600" alt="image" src="https://github.com/user-attachments/assets/54a9c580-064c-4ac8-8001-4ae4c5888f55" />|
-|<img width="220" height="600" alt="image" src="https://github.com/user-attachments/assets/dace08f5-e892-466c-b10c-171e053d9347" />|
- | <img width="278" height="600" alt="image" src="https://github.com/user-attachments/assets/62883a86-fbfb-4472-a510-f49ba9356e80" />
-|
+| <img width="300" height="819" alt="image" src="https://github.com/user-attachments/assets/54a9c580-064c-4ac8-8001-4ae4c5888f55" /> | <img width="300" height="819" alt="image" src="https://github.com/user-attachments/assets/dace08f5-e892-466c-b10c-171e053d9347" /> | <img width="300" height="647" alt="image" src="https://github.com/user-attachments/assets/62883a86-fbfb-4472-a510-f49ba9356e80" /> |
 
 | History | Profile | Settings |
 |---|---|---|
-|<img width="404" height="1280" alt="image" src="https://github.com/user-attachments/assets/0c2aa886-5064-435c-ac42-b0aca72c6103" />
+| <img width="300" height="950" alt="image" src="https://github.com/user-attachments/assets/0c2aa886-5064-435c-ac42-b0aca72c6103" /> | <img width="300" height="985" alt="image" src="https://github.com/user-attachments/assets/b8508107-cb13-462a-85d1-154485bd1891" /> | <img width="300" height="1272" alt="image" src="https://github.com/user-attachments/assets/cc31376f-2cae-40a0-80ae-9626e8b6eb87" /> |
 
- | <img width="390" height="1280" alt="image" src="https://github.com/user-attachments/assets/b8508107-cb13-462a-85d1-154485bd1891" />
- |<img width="302" height="1280" alt="image" src="https://github.com/user-attachments/assets/cc31376f-2cae-40a0-80ae-9626e8b6eb87" />
- |
-
-| Notification | Android Widget |
-|---|---|
-|<img width="593" height="1280" alt="image" src="https://github.com/user-attachments/assets/4068ba34-3cce-4a26-b1cf-d3278c693b07" />
- |<img width="543" height="251" alt="5445389190230121348_120" src="https://github.com/user-attachments/assets/d7669635-2e3d-42de-a92f-3742a7eb2b7c" />
- |
+| Notification | Android Widget | |
+|---|---|---|
+| <img width="300" height="647" alt="image" src="https://github.com/user-attachments/assets/4068ba34-3cce-4a26-b1cf-d3278c693b07" /> | <img width="300" height="139" alt="5445389190230121348_120" src="https://github.com/user-attachments/assets/d7669635-2e3d-42de-a92f-3742a7eb2b7c" /> | |
 
 ## Platforms
 
