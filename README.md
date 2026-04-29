@@ -40,7 +40,10 @@ The application helps users monitor how long they have been wearing their lenses
 | <img width="300" height="950" alt="image" src="https://github.com/user-attachments/assets/0c2aa886-5064-435c-ac42-b0aca72c6103" /> | <img width="300" height="985" alt="image" src="https://github.com/user-attachments/assets/b8508107-cb13-462a-85d1-154485bd1891" /> | <img width="300" height="1272" alt="image" src="https://github.com/user-attachments/assets/cc31376f-2cae-40a0-80ae-9626e8b6eb87" /> |
 | Notification | Android Widget |
 |---|---|
-| <img width="300" height="647" alt="image" src="https://github.com/user-attachments/assets/4068ba34-3cce-4a26-b1cf-d3278c693b07" /> | <img width="556" height="257" alt="image" src="https://github.com/user-attachments/assets/93b69d33-fe57-4ec7-93df-97b3bf7e337d" /> |
+| <img width="300" height="647" alt="image" src="https://github.com/user-attachments/assets/4068ba34-3cce-4a26-b1cf-d3278c693b07" /> | <img width="556" height="257" alt="image" src="https://github.com/user-attachments/assets/218266e0-9861-44d7-b2af-af2da304f912" /> |
+
+
+
 
 ## Platforms
 
