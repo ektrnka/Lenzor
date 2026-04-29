@@ -30,7 +30,6 @@ The application helps users monitor how long they have been wearing their lenses
 
 ## Screenshots
 
-> Add screenshots to `docs/screenshots/` and replace the placeholders below if needed.
 
 | Home Light | Home Dark | Calendar |
 |---|---|---|
