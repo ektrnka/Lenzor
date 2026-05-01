@@ -29,20 +29,18 @@ The application helps users monitor how long they have been wearing their lenses
 - Android home widget
 
 ## Screenshots
-
-
 | Home Light | Home Dark | Calendar |
 |---|---|---|
-<img width="469" height="1280" alt="image" src="https://github.com/user-attachments/assets/1d393de8-76f1-4ef4-abb0-d3762095f30b" />
-| <img width="300" height="819" alt="image" src="https://github.com/user-attachments/assets/dace08f5-e892-466c-b10c-171e053d9347" /> 
-| <img width="300" height="647" alt="image" src="https://github.com/user-attachments/assets/62883a86-fbfb-4472-a510-f49ba9356e80" /> |
+| <img width="300" height="819" alt="image" src="https://github.com/user-attachments/assets/1d393de8-76f1-4ef4-abb0-d3762095f30b" /> | <img width="300" height="819" alt="image" src="https://github.com/user-attachments/assets/dace08f5-e892-466c-b10c-171e053d9347" /> | <img width="300" height="647" alt="image" src="https://github.com/user-attachments/assets/23a81814-723c-4555-b9e6-2bddb7969ff8" /> |
 
 | History | Profile | Settings |
 |---|---|---|
-| <img width="300" height="950" alt="image" src="https://github.com/user-attachments/assets/0c2aa886-5064-435c-ac42-b0aca72c6103" /> | <img width="300" height="985" alt="image" src="https://github.com/user-attachments/assets/b8508107-cb13-462a-85d1-154485bd1891" /> | <img width="300" height="1272" alt="image" src="https://github.com/user-attachments/assets/cc31376f-2cae-40a0-80ae-9626e8b6eb87" /> |
+| <img width="300" height="950" alt="image" src="https://github.com/user-attachments/assets/72d686b1-d801-4e3d-b119-2d6fdd083c40" /> | <img width="300" height="985" alt="image" src="https://github.com/user-attachments/assets/b8508107-cb13-462a-85d1-154485bd1891" /> | <img width="300" height="1272" alt="image" src="https://github.com/user-attachments/assets/a298eac6-cdf7-499b-b2d1-b8512019a2d8" /> |
+
 | Notification | Android Widget |
 |---|---|
-| <img width="300" height="647" alt="image" src="https://github.com/user-attachments/assets/4068ba34-3cce-4a26-b1cf-d3278c693b07" /> | <img width="556" height="591" alt="image" src="https://github.com/user-attachments/assets/218266e0-9861-44d7-b2af-af2da304f912" /> |
+| <img width="300" height="647" alt="image" src="https://github.com/user-attachments/assets/bfbf7163-7c61-4a5a-b4de-d90582dbc0bd" /> | <img width="300" height="139" alt="image" src="https://github.com/user-attachments/assets/08ceacc6-0278-4b5f-92ae-340bd9650909" /> |
+
 
 
 
